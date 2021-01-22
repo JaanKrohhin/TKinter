@@ -19,9 +19,10 @@ def to_ent():
 win=Tk()
 win.title("This is a menu")
 win.geometry("600x400")
+
 btn=Button(win,text="Click \nthis",fg="purple",bg="black",font="Times_New_Roman 14",width=10,relief=GROOVE)#SUNKEN, GROOVE, RAISED
 lbl=Label(win,text="HELLO",fg="Crimson",bg="Gray",font="Arial 14",width=5,height=4)
-ent=Entry(win,width=15,fg="ForestGreen",font="Comic_Sans 16",bd=20)
+ent=Entry(win,width=15,fg="ForestGreen",font="Comic_Sans 16",bd=10)
 
 img=PhotoImage(file="Ivara Prime Access.png").subsample(5) #r"" find a file in the project that might be in a different folder
 btn_image=Button(win,image=img)
