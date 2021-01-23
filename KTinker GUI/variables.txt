@@ -1,7 +1,4 @@
-D=5**2-4*2*-3
+D=5**2-4*14*3
+D<0
 
-D>0
-There are 2 roots for this equation
-
-x1=0.5
-x2=-3.0
+There no roots for this equation
